@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background: aqua;
+}
+
+.container{
+
+   width: 360px;
+   margin: 150px auto;
+   padding: 50px 20px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.box{
+   height: 70px;
+   width: 70px;
+   border-radius: 10px;
+   text-align: center;
+   background: blueviolet;
+}
+
+.count{
+   margin-top: 20px;
+   font-size: 25px;
+   color: white;
+}
