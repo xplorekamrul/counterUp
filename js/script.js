@@ -3,7 +3,7 @@ const counterArray = Array.from(count)
 
 
 counterArray.map((item)=>{
-   let increment = (item.dataset.number)/10
+   let increment = (item.dataset.number)/20
    let dataset = (item.dataset.number)
    let startCount = 0 
    const counter = ()=>{
